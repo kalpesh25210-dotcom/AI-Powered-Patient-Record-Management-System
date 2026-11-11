@@ -1,4 +1,4 @@
-# 🏥 VeraOps - Agentic AI Hospital Assistant
+# VeraOps - Agentic AI Hospital Assistant
 
 VeraOps is an AI-driven hospital intelligence system designed to streamline clinical workflows by integrating patient record management, retrieval-augmented generation (RAG), and LLM-based reasoning. It enables semantic access to medical protocols and patient history using vector search (FAISS) and supports modular AI orchestration for real-world healthcare decision support. Built with Python, Streamlit, and LLM APIs (Groq/Gemini).
 
@@ -20,28 +20,28 @@ VeraOps is an AI-driven hospital intelligence system designed to streamline clin
 
 ---
 
-# 📌 Overview
+#  Overview
 
 VeraOps is an **Agentic AI Hospital Assistant** designed to bridge traditional Hospital Information Systems (HIS) with modern **Retrieval-Augmented Generation (RAG)** and **Agentic AI**.
 
 Unlike conventional chatbots, VeraOps integrates:
 
-- 🏥 Hospital Management
-- 👨‍⚕️ Doctor Workspace
-- 🧠 Agentic AI
-- 📚 Retrieval-Augmented Generation (RAG)
-- 📄 Automatic Clinical Documentation
-- 🔎 Similar Patient Retrieval
-- 🗄️ Vector Database Search
-- 💬 Context-aware AI Conversations
+-  Hospital Management
+-  Doctor Workspace
+-  Agentic AI
+-  Retrieval-Augmented Generation (RAG)
+-  Automatic Clinical Documentation
+-  Similar Patient Retrieval
+-  Vector Database Search
+-  Context-aware AI Conversations
 
-to assist healthcare professionals with grounded, explainable and context-aware responses.
+to assist healthcare professionals with grounded, explainable, and context-aware responses.
 
 ---
 
-# ✨ Key Features
+#  Key Features
 
-## 🏥 Hospital Information System
+## Hospital Information System
 
 - Patient Registration
 - Patient Directory
@@ -56,7 +56,7 @@ to assist healthcare professionals with grounded, explainable and context-aware 
 
 ---
 
-## 🤖 Agentic AI
+## Agentic AI
 
 Powered by **LangGraph**
 
@@ -74,7 +74,7 @@ Capabilities include:
 
 ---
 
-## 📚 Retrieval-Augmented Generation (RAG)
+## Retrieval-Augmented Generation (RAG)
 
 Two independent knowledge bases power VeraOps.
 
@@ -117,7 +117,7 @@ Whenever a patient record changes:
 
 ---
 
-# 🧠 Agentic Workflow
+# Agentic Workflow
 
 Instead of simply querying an LLM, VeraOps follows an intelligent workflow:
 
@@ -147,7 +147,7 @@ Patient Tools     Hospital Tools
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```
                      Streamlit UI
@@ -179,7 +179,7 @@ Dashboard         Doctor Workspace         AI Assistant
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 VeraOps/
@@ -216,7 +216,7 @@ VeraOps/
 
 ---
 
-# 👨‍⚕️ Doctor Workspace
+# Doctor Workspace
 
 The Doctor Workspace enables clinicians to update patient information through a structured workflow.
 
@@ -309,7 +309,7 @@ Maintains chronological events:
 
 ---
 
-# 🛏️ Bed Management
+# Bed Management
 
 Every ward contains **100 beds**.
 
@@ -323,7 +323,7 @@ The system automatically:
 
 ---
 
-# 🔎 Similar Patient Search
+# Similar Patient Search
 
 Uses semantic embeddings to retrieve patients with similar:
 
@@ -336,7 +336,7 @@ Helping doctors compare previous cases.
 
 ---
 
-# 💬 AI Assistant
+# AI Assistant
 
 Supports natural language questions such as:
 
@@ -349,7 +349,7 @@ Supports natural language questions such as:
 
 ---
 
-# 📊 Dashboard
+# Dashboard
 
 The dashboard displays:
 
@@ -365,7 +365,7 @@ The dashboard displays:
 
 ---
 
-# ℹ️ About VeraOps
+#  About VeraOps
 
 Displays live project information:
 
@@ -380,7 +380,7 @@ Displays live project information:
 
 ---
 
-# 🧩 Technology Stack
+#  Technology Stack
 
 | Category | Technology |
 |----------|------------|
@@ -397,12 +397,12 @@ Displays live project information:
 
 ---
 
-# 🚀 Installation
+# Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/VeraOps.git
+https://github.com/kalpesh25210-dotcom/AI-Powered-Patient-Record-Management-System.git
 ```
 
 Move into project
@@ -414,10 +414,10 @@ Move into project
 4. Run the app
 
 ```bash
-cd VeraOps
+cd  AI-Powered-Patient-Record-Management-System
 ```
 
-Create virtual environment
+Create a virtual environment
 
 ```bash
 python -m venv .venv
@@ -451,7 +451,7 @@ streamlit run app.py
 
 ---
 
-# 🔑 API Key
+# API Key
 
 VeraOps allows users to securely provide their own **Groq API Key** directly from the application.
 
@@ -459,7 +459,7 @@ No API key is stored permanently.
 
 ---
 
-# 📖 RAG Pipeline
+# RAG Pipeline
 
 ```
 Hospital Documents
@@ -486,7 +486,7 @@ Grounded Response
 
 ---
 
-# 🎯 Future Improvements
+# Future Improvements
 
 - Hybrid Search (BM25 + Semantic)
 - Authentication
@@ -499,7 +499,7 @@ Grounded Response
 
 ---
 
-# 👨‍💻 Developer
+#  Developer
 
 **Kalpesh Dongare**
 
@@ -515,13 +515,13 @@ Developed as an Agentic AI Healthcare project integrating:
 ---
 ## Streamlit Deployment Link: https://tztwwathynyek3rsljkzrw.streamlit.app/
 
-# ⭐ If you found this project useful
+#  If you found this project useful
 
-Please consider giving the repository a ⭐ on GitHub.
+Please consider giving the repository a on GitHub.
 
 ---
 
-## 📜 License
+## License
 
 This project is intended for educational and research purposes only.
 
