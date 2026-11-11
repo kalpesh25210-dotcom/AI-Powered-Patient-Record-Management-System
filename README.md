@@ -501,7 +501,7 @@ Grounded Response
 
 # 👨‍💻 Developer
 
-**Sanskriti Shakya**
+**Kalpesh Dongare**
 
 Developed as an Agentic AI Healthcare project integrating:
 
